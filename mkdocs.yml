@@ -36,8 +36,8 @@ theme:
         - content.code.select
     icon:
         repo: fontawesome/brands/github
-    favicon: assets/candle-icon.png
-    logo: assets/candle-icon.png
+    favicon: assets/logo.png
+    logo: assets/logo.png
 
 extra_css:
     - assets/custom.css

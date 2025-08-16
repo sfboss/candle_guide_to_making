@@ -1,6 +1,14 @@
 # Complete Guide to Organic Candle Making
 
+<p align="center">
+  <img src="assets/logo.png" alt="Candle Guide Logo" width="160" style="border-radius: 8px;" />
+</p>
+
 Welcome to your comprehensive resource for safe, organic candle making! Whether you're crafting your first candle or building a candle-making business, this guide provides everything you need to create beautiful, high-quality candles using natural materials.
+
+<p align="center">
+  <img src="assets/image.png" alt="Organic Candle Making" style="max-width: 100%; height: auto; border-radius: 8px;" />
+</p>
 
 ## 🕯️ Why Organic Candle Making?
 
@@ -79,6 +87,15 @@ Organic and natural candles offer numerous benefits:
 
 </div>
 
+## 🔧 Troubleshooting
+
+Quick links to diagnose and improve candle performance:
+
+-   [Common Problems](troubleshooting/common-problems.md)
+-   [Quality Control](troubleshooting/quality-control.md)
+-   [Testing Methods](troubleshooting/testing.md)
+-   [Storage & Shipping](troubleshooting/storage.md)
+
 ## 🛡️ Safety Always First
 
 !!! warning "Safety Priority"
@@ -90,6 +107,14 @@ Candle making involves hot wax, open flames, and potentially hazardous materials
     - Follow all safety protocols
 
     **[Read Complete Safety Guide →](getting-started/safety.md)**
+
+## 📎 Additional Resources
+
+-   [Glossary](reference/glossary.md)
+-   [Measurements & Conversions](reference/measurements.md)
+-   [Supplier Directory](reference/suppliers.md)
+-   [Safety Data Sheets](reference/safety-data.md)
+-   [Troubleshooting Quick Reference](reference/quick-reference.md)
 
 ## 📚 What You'll Learn
 

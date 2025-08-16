@@ -1,0 +1,160 @@
+/* Custom CSS for Candle Making Guide */
+
+/* Color Variables */
+:root {
+    --candle-flame: #ff6b35;
+    --warm-wax: #f7931e;
+    --natural-beige: #f5e6d3;
+    --earth-brown: #8b4513;
+    --soft-cream: #faf8f3;
+}
+
+/* Hero Section Styling */
+.hero-banner {
+    background: linear-gradient(135deg, var(--soft-cream) 0%, var(--natural-beige) 100%);
+    padding: 2rem;
+    margin: -1rem -1rem 2rem -1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    color: var(--earth-brown);
+    margin-bottom: 1rem;
+}
+
+/* Card Grid Styling */
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.grid.cards > * {
+    background: var(--soft-cream);
+    border: 1px solid var(--natural-beige);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.grid.cards > *:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(139, 69, 19, 0.1);
+}
+
+/* Safety Warning Boxes */
+.admonition.warning {
+    border-left: 4px solid var(--candle-flame);
+}
+
+.admonition.danger {
+    background-color: #fff5f5;
+    border-left: 4px solid #e53e3e;
+}
+
+.admonition.success {
+    background-color: #f0fff4;
+    border-left: 4px solid #38a169;
+}
+
+/* Temperature Display Styling */
+.temperature-box {
+    background: linear-gradient(45deg, var(--warm-wax), var(--candle-flame));
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/* Recipe Card Styling */
+.recipe-card {
+    background: var(--soft-cream);
+    border: 2px solid var(--natural-beige);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.recipe-card h3 {
+    color: var(--earth-brown);
+    border-bottom: 2px solid var(--warm-wax);
+    padding-bottom: 0.5rem;
+}
+
+/* Navigation Enhancement */
+.md-tabs__link {
+    font-weight: 500;
+}
+
+.md-tabs__link--active {
+    color: var(--candle-flame);
+}
+
+/* Button Styling */
+.md-button {
+    background-color: var(--candle-flame);
+    border-color: var(--candle-flame);
+    color: white;
+}
+
+.md-button:hover {
+    background-color: var(--warm-wax);
+    border-color: var(--warm-wax);
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+table th {
+    background-color: var(--natural-beige);
+    color: var(--earth-brown);
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background-color: var(--soft-cream);
+}
+
+/* Checklist Styling */
+.task-list-item input[type='checkbox']:checked + label::before {
+    background-color: var(--candle-flame);
+    border-color: var(--candle-flame);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .grid.cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-banner {
+        margin: -0.5rem -0.5rem 1rem -0.5rem;
+        padding: 1rem;
+    }
+
+    .recipe-card {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+}
+
+/* Print Styling */
+@media print {
+    .recipe-card {
+        break-inside: avoid;
+        border: 2px solid #333;
+    }
+
+    .admonition.warning,
+    .admonition.danger {
+        border-left: 4px solid #333;
+    }
+}
