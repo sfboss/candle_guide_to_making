@@ -1,0 +1,127 @@
+site_name: Complete Guide to Organic Candle Making
+site_description: A comprehensive reference guide for safe, organic candle making from beginner to business owner
+site_author: Candle Making Expert
+site_url: https://sfboss.github.io/candle-making-guide/
+
+repo_url: https://github.com/sfboss/candle-making-guide
+repo_name: candle-making-guide
+
+theme:
+    name: material
+    palette:
+        # Palette toggle for light mode
+        - scheme: default
+          primary: amber
+          accent: orange
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        # Palette toggle for dark mode
+        - scheme: slate
+          primary: amber
+          accent: orange
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
+    features:
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.sections
+        - navigation.expand
+        - navigation.path
+        - navigation.top
+        - search.highlight
+        - search.share
+        - content.code.copy
+        - content.code.select
+    icon:
+        repo: fontawesome/brands/github
+    favicon: assets/candle-icon.png
+    logo: assets/candle-icon.png
+
+extra_css:
+    - assets/custom.css
+
+extra_javascript:
+    - assets/custom.js
+
+plugins:
+    - search:
+          lang: en
+    - tags
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+    - attr_list
+    - md_in_html
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.tasklist:
+          custom_checkbox: true
+    - tables
+    - toc:
+          permalink: true
+
+nav:
+    - Home: index.md
+    - Getting Started:
+          - Introduction to Candle Making: getting-started/introduction.md
+          - Safety First: getting-started/safety.md
+          - Essential Tools & Equipment: getting-started/tools.md
+          - Understanding Wax Types: getting-started/wax-types.md
+          - Choosing Wicks: getting-started/wicks.md
+          - Containers & Molds: getting-started/containers.md
+    - Step-by-Step Tutorials:
+          - Your First Candle: tutorials/first-candle.md
+          - Container Candles: tutorials/container-candles.md
+          - Pillar Candles: tutorials/pillar-candles.md
+          - Taper Candles: tutorials/taper-candles.md
+          - Soy Wax Candles: tutorials/soy-candles.md
+          - Beeswax Candles: tutorials/beeswax-candles.md
+          - Coconut Wax Candles: tutorials/coconut-wax-candles.md
+    - Advanced Techniques:
+          - Layered Candles: advanced/layered-candles.md
+          - Marbled Effects: advanced/marbled-effects.md
+          - Embedded Objects: advanced/embedded-objects.md
+          - Custom Scent Blending: advanced/scent-blending.md
+          - Professional Finishing: advanced/finishing.md
+    - Business Guide:
+          - Starting Your Business: business/getting-started.md
+          - Product Development: business/product-development.md
+          - Pricing & Costs: business/pricing.md
+          - Marketing & Branding: business/marketing.md
+          - Legal & Insurance: business/legal.md
+          - Scaling Production: business/scaling.md
+    - Troubleshooting:
+          - Common Problems: troubleshooting/common-problems.md
+          - Quality Control: troubleshooting/quality-control.md
+          - Testing Methods: troubleshooting/testing.md
+          - Storage & Shipping: troubleshooting/storage.md
+    - Reference:
+          - Glossary: reference/glossary.md
+          - Measurements & Conversions: reference/measurements.md
+          - Supplier Directory: reference/suppliers.md
+          - Safety Data Sheets: reference/safety-data.md
+          - Troubleshooting Quick Reference: reference/quick-reference.md
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/sfboss/candle-making-guide
+    tags:
+        Beginner: beginner
+        Intermediate: intermediate
+        Advanced: advanced
+        Business: business
+        Safety: safety
+        Tutorial: tutorial

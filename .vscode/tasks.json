@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install Dependencies and Serve MkDocs",
+            "type": "shell",
+            "command": "pip install -r requirements.txt && mkdocs serve",
+            "group": "build",
+            "isBackground": true,
+            "problemMatcher": [],
+            "args": []
+        }
+    ]
+}
