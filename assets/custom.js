@@ -169,6 +169,15 @@ document.addEventListener('DOMContentLoaded', function () {
     if ('Notification' in window && Notification.permission === 'default') {
         Notification.requestPermission();
     }
+
+    // Inject a small, relaxing decorative candle in the corner
+    try {
+        const candle = document.createElement('div');
+        candle.id = 'calm-candle';
+        candle.innerHTML = '<div class="wax"></div><div class="wick"></div><div class="flame" aria-hidden="true"></div>';
+        candle.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(candle);
+    } catch (e) { /* no-op */ }
 });
 
 // Smooth scroll for anchor links
