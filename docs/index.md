@@ -1,5 +1,13 @@
 # Complete Guide to Organic Candle Making
 
+<div class="hero-banner" markdown>
+
+### Natural, safe, and beautiful candles — from first pour to thriving business
+
+[Get Started](getting-started/introduction.md){ .md-button } [Make Your First Candle](tutorials/first-candle.md){ .md-button .md-button--secondary }
+
+</div>
+
 <p align="center">
   <img src="assets/logo.png" alt="Candle Guide Logo" width="160" style="border-radius: 8px;" />
 </p>

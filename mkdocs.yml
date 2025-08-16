@@ -8,21 +8,12 @@ repo_name: candle_guide_to_making
 theme:
     name: material
     palette:
-        # Palette toggle   for l. ight mode
         - scheme: default
-          primary: amber
-          accent: orange
-          toggle:
-              icon: material/brightness-7
-              name: Switch to dark mode
-        # Palette toggle for dark mode
-        - scheme: slate
-          primary: amber
-          accent: orange
-
-          toggle:
-              icon: material/brightness-4
-              name: Switch to light mode
+          primary: brown
+          accent: deep-orange
+    font:
+        text: "Source Serif 4"
+        code: "Source Code Pro"
     features:
         - navigation.tabs
         - navigation.tabs.sticky
@@ -60,7 +51,6 @@ markdown_extensions:
           anchor_linenums: true
     - pymdownx.inlinehilite
     - pymdownx.snippets
-    - pymdownx.superfences
     - attr_list
     - md_in_html
     - pymdownx.emoji:
