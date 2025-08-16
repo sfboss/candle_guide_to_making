@@ -8,7 +8,7 @@ repo_name: candle_guide_to_making
 theme:
     name: material
     palette:
-        # Palette toggle   for light mode
+        # Palette toggle   for l. ight mode
         - scheme: default
           primary: amber
           accent: orange
