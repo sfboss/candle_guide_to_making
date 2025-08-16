@@ -1,10 +1,9 @@
 site_name: Complete Guide to Organic Candle Making
 site_description: A comprehensive reference guide for safe, organic candle making from beginner to business owner
 site_author: Candle Making Expert
-site_url: https://sfboss.github.io/candle-making-guide/
-
-repo_url: https://github.com/sfboss/candle-making-guide
-repo_name: candle-making-guide
+site_url: https://sfboss.github.io/candle_guide_to_making/
+repo_url: https://github.com/sfboss/candle_guide_to_making
+repo_name: candle_guide_to_making
 
 theme:
     name: material
@@ -20,6 +19,7 @@ theme:
         - scheme: slate
           primary: amber
           accent: orange
+
           toggle:
               icon: material/brightness-4
               name: Switch to light mode
@@ -117,7 +117,7 @@ nav:
 extra:
     social:
         - icon: fontawesome/brands/github
-          link: https://github.com/sfboss/candle-making-guide
+          link: https://github.com/sfboss/candle_guide_to_making
     tags:
         Beginner: beginner
         Intermediate: intermediate
