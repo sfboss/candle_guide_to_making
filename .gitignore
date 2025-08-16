@@ -1,0 +1,21 @@
+# MkDocs build output
+site/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Logs
+*.log
