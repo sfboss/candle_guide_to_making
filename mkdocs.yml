@@ -6,29 +6,7 @@ repo_url: https://github.com/sfboss/candle_guide_to_making
 repo_name: candle_guide_to_making
 
 theme:
-    name: material
-    palette:
-        - scheme: default
-          primary: brown
-          accent: deep-orange
-    font:
-        text: "Source Serif 4"
-        code: "Source Code Pro"
-    features:
-        - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.sections
-        - navigation.expand
-        - navigation.path
-        - navigation.top
-        - search.highlight
-        - search.share
-        - content.code.copy
-        - content.code.select
-    icon:
-        repo: fontawesome/brands/github
-    favicon: assets/logo.png
-    logo: assets/logo.png
+    name: readthedocs
 
 extra_css:
     - assets/custom.css
@@ -39,7 +17,6 @@ extra_javascript:
 plugins:
     - search:
           lang: en
-    - tags
 
 markdown_extensions:
     - admonition
@@ -53,9 +30,7 @@ markdown_extensions:
     - pymdownx.snippets
     - attr_list
     - md_in_html
-    - pymdownx.emoji:
-          emoji_index: !!python/name:material.extensions.emoji.twemoji
-          emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    - pymdownx.emoji
     - pymdownx.tasklist:
           custom_checkbox: true
     - tables
