@@ -6,7 +6,18 @@ repo_url: https://github.com/sfboss/candle_guide_to_making
 repo_name: candle_guide_to_making
 
 theme:
-    name: readthedocs
+    name: material
+    logo: assets/logo.png
+    favicon: assets/image.png
+    palette:
+        - scheme: default
+          primary: brown
+          accent: deep orange
+    features:
+        - navigation.sections
+        - navigation.top
+        - content.code.copy
+        - toc.integrate
 
 extra_css:
     - assets/custom.css

@@ -61,37 +61,37 @@ Organic and natural candles offer numerous benefits:
 
 <div class="grid cards" markdown>
 
--   :material-leaf: **Soy Wax**
+-   🍃 **Soy Wax**
 
     ***
 
     Clean-burning, excellent scent throw, beginner-friendly
 
-    [:octicons-arrow-right-24: Learn More](tutorials/soy-candles.md)
+    [➡️ Learn More](tutorials/soy-candles.md)
 
--   :material-bee: **Beeswax**
+-   🐝 **Beeswax**
 
     ***
 
     Natural air purifier, longest burn time, premium quality
 
-    [:octicons-arrow-right-24: Learn More](tutorials/beeswax-candles.md)
+    [➡️ Learn More](tutorials/beeswax-candles.md)
 
--   :material-palm-tree: **Coconut Wax**
+-   🌴 **Coconut Wax**
 
     ***
 
     Luxury option, excellent cold and hot throw
 
-    [:octicons-arrow-right-24: Learn More](tutorials/coconut-wax-candles.md)
+    [➡️ Learn More](tutorials/coconut-wax-candles.md)
 
--   :material-flask: **Blended Wax**
+-   ⚗️ **Blended Wax**
 
     ***
 
     Combine benefits, custom performance characteristics
 
-    [:octicons-arrow-right-24: Learn More](advanced/layered-candles.md)
+    [➡️ Learn More](advanced/layered-candles.md)
 
 </div>
 
@@ -159,37 +159,37 @@ Choose your path:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-graduation-cap: **Learn the Basics**
+-   🎓 **Learn the Basics**
 
     ***
 
     Start with fundamentals and safety
 
-    [:octicons-arrow-right-24: Getting Started](getting-started/introduction.md)
+    [➡️ Getting Started](getting-started/introduction.md)
 
--   :fontawesome-solid-tools: **Jump to Tutorials**
+-   🧰 **Jump to Tutorials**
 
     ***
 
     Ready to make your first candle
 
-    [:octicons-arrow-right-24: Step-by-Step Guides](tutorials/first-candle.md)
+    [➡️ Step-by-Step Guides](tutorials/first-candle.md)
 
--   :fontawesome-solid-chart-line: **Business Guide**
+-   📈 **Business Guide**
 
     ***
 
     Turn your passion into profit
 
-    [:octicons-arrow-right-24: Business Section](business/getting-started.md)
+    [➡️ Business Section](business/getting-started.md)
 
--   :fontawesome-solid-search: **Troubleshoot Issues**
+-   🔎 **Troubleshoot Issues**
 
     ***
 
     Solve problems and improve quality
 
-    [:octicons-arrow-right-24: Troubleshooting](troubleshooting/common-problems.md)
+    [➡️ Troubleshooting](troubleshooting/common-problems.md)
 
 </div>
 

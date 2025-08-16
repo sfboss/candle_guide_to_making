@@ -1,15 +1,10 @@
 # Complete Guide to Organic Candle Making
 
-A comprehensive, professional## 🛠️ Built With
-
--   **MkDocs Material** - Modern documentation framework with advanced features
--   **GitHub Pages** - Reliable hosting with automatic deployments
--   **Custom CSS/JS** - Enhanced visual design and interactive elements
--   **Responsive Design** - Optimized for mobile workshop and production usence guide for safe organic candle making - from your first candle to building a successful business.
+A comprehensive, professional reference guide for safe organic candle making — from your first candle to building a successful business.
 
 ## 🕯️ Live Site
 
-**[Access the Complete Guide →](https://sfboss.github.io/candle-making-guide/)**
+**[Access the Complete Guide →](https://sfboss.github.io/candle_guide_to_making/)**
 
 ## ✨ What This Offers
 

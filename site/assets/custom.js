@@ -1,5 +1,26 @@
 // Custom JavaScript for Candle Making Guide
 
+// Enforce light palette site-wide to prevent dark scheme from persisting on some pages
+(function enforceLightPalette() {
+    try {
+        const root = document.documentElement;
+        // Clear any stored palette/scheme preferences from previous sessions
+        const keysToRemove = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const k = localStorage.key(i);
+            if (k && /palette|color|scheme/i.test(k)) keysToRemove.push(k);
+        }
+        keysToRemove.forEach(k => localStorage.removeItem(k));
+
+        // Force Material palette attributes
+        root.setAttribute('data-md-color-scheme', 'default');
+        root.setAttribute('data-md-color-primary', 'brown');
+        root.setAttribute('data-md-color-accent', 'deep-orange');
+    } catch (e) {
+        // no-op
+    }
+})();
+
 // Temperature Converter
 function convertTemperature() {
     const fahrenheit = document.getElementById('fahrenheit');
@@ -148,6 +169,15 @@ document.addEventListener('DOMContentLoaded', function () {
     if ('Notification' in window && Notification.permission === 'default') {
         Notification.requestPermission();
     }
+
+    // Inject a small, relaxing decorative candle in the corner
+    try {
+        const candle = document.createElement('div');
+        candle.id = 'calm-candle';
+        candle.innerHTML = '<div class="wax"></div><div class="wick"></div><div class="flame" aria-hidden="true"></div>';
+        candle.setAttribute('aria-hidden', 'true');
+        document.body.appendChild(candle);
+    } catch (e) { /* no-op */ }
 });
 
 // Smooth scroll for anchor links
