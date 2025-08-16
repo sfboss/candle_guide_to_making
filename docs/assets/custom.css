@@ -14,10 +14,40 @@
     --md-default-bg-color: var(--soft-cream);
 }
 
-/* Page background subtle parchment */
+/* Force light appearance across the whole site */
+html {
+    color-scheme: light;
+}
+body {
+    background-color: var(--soft-cream);
+}
+
+/* Also override if Material ever sets a dark scheme */
+[data-md-color-scheme='slate'] {
+    --md-default-bg-color: var(--soft-cream);
+    --md-primary-fg-color: var(--earth-brown);
+    --md-accent-fg-color: var(--candle-flame);
+    --md-typeset-color: #332a25;
+    --md-code-bg-color: #f6efe6;
+    --md-code-fg-color: #3b2d2a;
+}
+
+/* Code blocks and inline code on all pages */
+:root {
+    --md-code-bg-color: #f6efe6;
+    --md-code-fg-color: #3b2d2a;
+}
+.md-typeset pre > code,
+.md-typeset code {
+    background-color: var(--md-code-bg-color);
+    color: var(--md-code-fg-color);
+}
+
+/* Ensure all main containers keep the light parchment feel */
 .md-main,
 .md-content,
-.md-container {
+.md-container,
+.md-content__inner {
     background: linear-gradient(180deg, var(--soft-cream), var(--natural-beige) 120%);
 }
 
@@ -139,6 +169,30 @@ table tr:nth-child(even) {
 .task-list-item input[type='checkbox']:checked + label::before {
     background-color: var(--candle-flame);
     border-color: var(--candle-flame);
+}
+
+/* Sidebars and navigation */
+.md-sidebar--primary,
+.md-sidebar--secondary,
+.md-nav {
+    background-color: var(--soft-cream);
+}
+.md-sidebar--primary {
+    border-right: 1px solid var(--natural-beige);
+}
+
+/* Footer */
+.md-footer {
+    background-color: var(--soft-cream);
+    border-top: 1px solid var(--natural-beige);
+}
+
+/* Links use warm accent but readable */
+.md-typeset a {
+    color: var(--candle-flame);
+}
+.md-typeset a:hover {
+    color: var(--warm-wax);
 }
 
 /* Mobile */

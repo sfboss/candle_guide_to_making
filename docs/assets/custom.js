@@ -1,5 +1,26 @@
 // Custom JavaScript for Candle Making Guide
 
+// Enforce light palette site-wide to prevent dark scheme from persisting on some pages
+(function enforceLightPalette() {
+    try {
+        const root = document.documentElement;
+        // Clear any stored palette/scheme preferences from previous sessions
+        const keysToRemove = [];
+        for (let i = 0; i < localStorage.length; i++) {
+            const k = localStorage.key(i);
+            if (k && /palette|color|scheme/i.test(k)) keysToRemove.push(k);
+        }
+        keysToRemove.forEach(k => localStorage.removeItem(k));
+
+        // Force Material palette attributes
+        root.setAttribute('data-md-color-scheme', 'default');
+        root.setAttribute('data-md-color-primary', 'brown');
+        root.setAttribute('data-md-color-accent', 'deep-orange');
+    } catch (e) {
+        // no-op
+    }
+})();
+
 // Temperature Converter
 function convertTemperature() {
     const fahrenheit = document.getElementById('fahrenheit');
